@@ -13,7 +13,7 @@ body {
 .scorecard {
     margin: 150px auto;
     width: 575px;
-    height: 400px;
+    height: 420px;
     background-color: var(--scoreboard-bg-color);
     display: flex;
     justify-content: space-around;
