@@ -1,0 +1,79 @@
+@font-face {
+    font-family: CursedTimer;
+    src: url("/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    --scoreboard-bg-color: #0C4A6E;
+    --score-bg-color: #1F2937;
+    --score-color: #E11D48;
+    --btn-color: #38BDF8;
+}
+
+.scorecard {
+    margin: 150px auto;
+    width: 575px;
+    height: 385px;
+    background-color: var(--scoreboard-bg-color);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h1 {
+    color: #EEEEEE;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score {
+    background-color: var(--score-bg-color);
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    color: var(--score-color);
+    text-align: center;
+    border-radius: 5px;
+    font-family: CursedTimer, arial;
+    padding-top: 25px;
+}
+
+.add-score {
+    margin: 26px 0px;
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-score-btn {
+    width: 45px;
+    height: 45px;
+    background: none;
+    border: 1px solid var(--btn-color);
+    border-radius: 5px;
+    color: var(--btn-color);
+    font-family: CursedTimer, arial;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+.new-game-btn {
+    background: none;
+    border: 1px solid var(--btn-color);
+    border-radius: 5px;
+    color: var(--btn-color);
+    font-family: CursedTimer, arial;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+.leader {
+    border: 5px solid yellow;
+}
+
+
